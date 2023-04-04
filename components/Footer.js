@@ -101,7 +101,7 @@ export default class Blog extends Component {
                 <div className="site-footer__bottom">
                     <div className="container">
                         <div className="inner-container text-center">
-                            <p className="site-footer__copy">&copy; copyright 2023 by <a href="#">Marcos Judd</a></p>
+                            <p className="site-footer__copy">&copy; copyright 2023 by <a href="#">Diego Fernando</a></p>
                         </div>
                     </div>
                 </div>

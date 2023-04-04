@@ -24,7 +24,8 @@ const News = () => {
         const [dados, setdados] = useState(
             {
               nome: '',
-              descricao: ''
+              descricao: '',
+              cartaz: ''
             }
         );
 
@@ -38,7 +39,8 @@ const News = () => {
             {
                 id: '',
               nome: '',
-              descricao: ''
+              descricao: '',
+              cartaz: ''
             }
         );
 
@@ -68,7 +70,7 @@ const News = () => {
                                             <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
                                                 <div onClick={() => setdados2({id: e.id, nome: e.nome, descricao: e.descricao})} className="blog-one__single">
                                                     <div className="blog-one__image">
-                                                        <img src="/assets/images/blog/blog-1-1.jpg" alt="" />
+                                                        <img src={e.cartaz} alt="" />
                                                         <Link href="/news-details">
                                                             <a className="blog-one__more-link"><i
                                                                 className="fa fa-link"></i>
@@ -83,7 +85,7 @@ const News = () => {
                                                             </Link>
                                                         </h3>
                                                         <Link href="/news-details">
-                                                        <a className="blog-one__link">Read More</a>
+                                                        <a className="blog-one__link">Saiba Mais.</a>
                                                         </Link>
                                                         <h2 onClick={() => deleteProjeto(e.id) }>X</h2>
                                                     </div>
