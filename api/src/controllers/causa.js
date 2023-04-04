@@ -13,6 +13,7 @@ async function addCausa(req, res) {
     const causa = await CausaRepository.create({
       nome: req.body.nome,
       descricao: req.body.descricao,
+      cartaz: req.body.cartaz
     })
 
     res.json(causa);
@@ -27,6 +28,7 @@ async function updateCausa(req, res) {
       {
         nome: req.body.nome,
         descricao: req.body.descricao,
+        cartaz: req.body.cartaz
       },
       {
         where: {
