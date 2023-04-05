@@ -68,7 +68,7 @@ const News = () => {
                             {projeto?.map((e) => {
                                 return(
                                             <div className="col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                                                <div onClick={() => setdados2({id: e.id, nome: e.nome, descricao: e.descricao})} className="blog-one__single">
+                                                <div onClick={() => setdados2({id: e.id, nome: e.nome, descricao: e.descricao, cartaz: e.cartaz})} className="blog-one__single">
                                                     <div className="blog-one__image">
                                                         <img src={e.cartaz} alt="" />
                                                         <Link href="/news-details">
@@ -105,7 +105,8 @@ const News = () => {
                     axios
                     .put(`http://localhost:3300/causa/${dados2.id}`, {
                         nome: dados2.nome,
-                        descricao: dados2.descricao
+                        descricao: dados2.descricao,
+                        cartaz: dados2.cartaz
                     })
                     .then(function (response) {
                         console.log(response);
@@ -127,7 +128,8 @@ const News = () => {
                     axios
                     .post('http://localhost:3300/causa', {
                         nome: dados.nome,
-                        descricao: dados.descricao
+                        descricao: dados.descricao,
+                        cartaz: dados.cartaz
                     })
                     .then(function (response) {
                         console.log(response);
@@ -139,7 +141,7 @@ const News = () => {
                         <h2>Cadastrar novo projeto</h2>
                     <input  name='nome' placeholder='Insira o nome do Projeto' onChange={handleChange}/>
                     <input name='descricao' placeholder='Sobre o que é o projeto?' onChange={handleChange}/>
-                    <input name='cartaz' placeholder='Insira o link da imagem' onChange={handleChange2} />
+                    <input name='cartaz' placeholder='Insira o link da imagem' onChange={handleChange} />
                     <input type="submit" value="Submit" />
                 </form>
             </>
