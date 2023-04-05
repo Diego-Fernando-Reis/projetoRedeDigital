@@ -208,6 +208,11 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     "to-fast-properties" "^2.0.0"
 
+"@djpfs/react-vlibras@^2.0.2":
+  "integrity" "sha512-mhfxr1cg8tLdcXBUT5hictbcityoAXFKJz4/boiMGbpsZRCVkqC5EoJVRF+6brrB1GBAoVLCtn1OuzipEopewA=="
+  "resolved" "https://registry.npmjs.org/@djpfs/react-vlibras/-/react-vlibras-2.0.2.tgz"
+  "version" "2.0.2"
+
 "@netlify/functions@^0.7.2":
   "integrity" "sha512-xf45ZqQukMxmlkqNMC5BXdFMaVZ8VqF42MV5zA5nKVOh2V0mhYlcbTYlVbS/K2/rtvQ3W8lxxixYl4NT7kq6Bg=="
   "resolved" "https://registry.npmjs.org/@netlify/functions/-/functions-0.7.2.tgz"
