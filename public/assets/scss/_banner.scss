@@ -6,13 +6,13 @@
     background-position: top center;
 
     .container {
-        padding-top: 350px;
+        padding-top: 0;
         padding-bottom: 230px;
         position: relative;
     }
 
     &__title {
-        margin: 0;
+        margin: -150px;
         color: $thm-black;
         font-weight: 300;
         font-size: 90px;

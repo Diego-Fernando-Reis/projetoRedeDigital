@@ -29,6 +29,19 @@ export default db.define("causa", {
       }
     }
   },
+  cartaz: {
+    type: Sequelize.STRING,
+    validate: {
+      isUrl: {
+        args: {
+          protocols: ['http', 'https'],
+          require_protocol: true,
+          require_tld: true,
+        },
+        msg: 'Foi fornecida uma url inválida!',
+      },
+    },
+  },
 }, {
   freezeTableName: true,
   tableName: 'causas',

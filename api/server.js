@@ -20,6 +20,13 @@ app.post('causas', [
   }
 })
 
-db.sync(() => console.log(`Banco de dados conectado: ${process.env.DB_NAME}`));
+
+db.sync({ force: true })
+  .then(() => {
+    console.log('Banco de dados criado com sucesso!');
+  })
+  .catch((error) => {
+    console.log('Erro ao criar o banco de dados:', error);
+  });
 
 app.listen(3300, () => console.log("Servidor iniciado na porta 3300"));

@@ -15,6 +15,7 @@ import Faq from "../components/Faq";
 import NewsHome from "../components/NewsHome";
 import Subscribe from "../components/Subscribe";
 import { Libras } from "../components/Libras";
+import VLibras from "@djpfs/react-vlibras"
 
 
 
@@ -37,8 +38,8 @@ const HomePage = () => (
         <Subscribe />
         <Libras />
         <Footer />
-        
-        
+        <VLibras />
+                
     </Layout>
 
     
