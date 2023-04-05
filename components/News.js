@@ -117,6 +117,7 @@ const News = () => {
                         <h2>{`Alterar projeto ${dados2.nome}`}</h2>
                     <input  name='nome' placeholder='Insira o nome do Projeto' onChange={handleChange2} value={dados2.nome}/>
                     <input name='descricao' placeholder='Sobre o que é o projeto?' onChange={handleChange2} value={dados2.descricao}/>
+                    <input name='cartaz' placeholder='Insira o link da imagem' onChange={handleChange2} value={dados2.cartaz}/>
                     <input type="submit" value="Submit" />
                 </form>
 
@@ -138,12 +139,10 @@ const News = () => {
                         <h2>Cadastrar novo projeto</h2>
                     <input  name='nome' placeholder='Insira o nome do Projeto' onChange={handleChange}/>
                     <input name='descricao' placeholder='Sobre o que é o projeto?' onChange={handleChange}/>
+                    <input name='cartaz' placeholder='Insira o link da imagem' onChange={handleChange2} />
                     <input type="submit" value="Submit" />
                 </form>
             </>
-            
-            
-                
             
         )
 }

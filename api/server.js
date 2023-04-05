@@ -21,7 +21,7 @@ app.post('causas', [
 })
 
 
-db.sync({ force: true })
+db.sync(/*{ force: true }*/)
   .then(() => {
     console.log('Banco de dados criado com sucesso!');
   })
