@@ -90,8 +90,8 @@ export default class NavTwo extends Component {
                                 <li className="scrollToLink">
                                     <a href="#news">Projetos</a>
                                     <ul className="sub-menu">
-                                        <li><Link href="/news"><a>Todos os projetos</a></Link></li>
-                                        <li><Link href="/news-details"><a>News Details</a></Link></li>
+                                        <li><Link href="/news">Todos os projetos</Link></li>
+                                        <li><Link href="/news-details">News Details</Link></li>
                                     </ul>
                                 </li>
                             </ul>

@@ -72,20 +72,20 @@ const News = () => {
                                                     <div className="blog-one__image">
                                                         <img src={e.cartaz} alt="" />
                                                         <Link href="/news-details">
-                                                            <a className="blog-one__more-link"><i
+                                                            <div className="blog-one__more-link"><i
                                                                 className="fa fa-link"></i>
-                                                            </a>
+                                                            </div>
                                                         </Link>
                                                     </div>
                                                     <div className="blog-one__content">
                                                         <h2>{e.nome}</h2>
                                                         <h3 className="blog-one__title">
                                                             <Link href="/news-details">
-                                                            <a>{e.descricao}</a>
+                                                            <div>{e.descricao}</div>
                                                             </Link>
                                                         </h3>
                                                         <Link href="/news-details">
-                                                        <a className="blog-one__link">Saiba Mais.</a>
+                                                        <div className="blog-one__link">Saiba Mais.</div>
                                                         </Link>
                                                         <h2 onClick={() => deleteProjeto(e.id) }>X</h2>
                                                     </div>

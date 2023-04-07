@@ -16,9 +16,9 @@ const NewsHome = () => {
                                 <div className="blog-one__image">
                                     <img src="/assets/images/blog/blog-1-1.jpg" alt="" />
                                     <Link href="/news-details">
-                                        <a className="blog-one__more-link"><i
+                                        <div className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
-                                        </a>
+                                        </div>
                                     </Link>
                                 </div>
                                 <div className="blog-one__content">
@@ -28,11 +28,11 @@ const NewsHome = () => {
                                     </ul>
                                     <h3 className="blog-one__title">
                                         <Link href="/news-details">
-                                        <a>Prefeitura do Rio lança Programadores Cariocas, curso voltado para formação de jovens vulneráveis</a>
+                                        Prefeitura do Rio lança Programadores Cariocas, curso voltado para formação de jovens vulneráveis.
                                         </Link>
                                     </h3>
                                     <Link href="/news-details">
-                                    <a className="blog-one__link">Ler mais</a>
+                                    <div className="blog-one__link">Ler mais</div>
                                     </Link>
                                 </div>
                             </div>
@@ -42,9 +42,9 @@ const NewsHome = () => {
                                 <div className="blog-one__image">
                                     <img src="/assets/images/blog/blog-1-2.jpg" alt="" />
                                     <Link href="/news-details">
-                                        <a className="blog-one__more-link"><i
+                                        <div className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
-                                        </a>
+                                        </div>
                                     </Link>
                                 </div>
                                 <div className="blog-one__content">
@@ -54,11 +54,11 @@ const NewsHome = () => {
                                     </ul>
                                     <h3 className="blog-one__title">
                                         <Link href="/news-details">
-                                        <a> As Naves do Conhecimento democratizam o acesso ao universo digital em ambientes colaborativos e criativos.</a>
+                                        As Naves do Conhecimento democratizam o acesso ao universo digital em ambientes colaborativos e criativos.
                                         </Link>
                                     </h3>
                                     <Link href="/news-details">
-                                    <a className="blog-one__link">Ler mais</a>
+                                    <div className="blog-one__link">Ler mais</div>
                                     </Link>
                                 </div>
                             </div>
@@ -68,9 +68,9 @@ const NewsHome = () => {
                                 <div className="blog-one__image">
                                     <img src="/assets/images/blog/blog-1-3.jpg" alt="" />
                                     <Link href="/news-details">
-                                        <a className="blog-one__more-link"><i
+                                        <div className="blog-one__more-link"><i
                                             className="fa fa-link"></i>
-                                        </a>
+                                        </div>
                                     </Link>
                                 </div>
                                 <div className="blog-one__content">
@@ -80,11 +80,11 @@ const NewsHome = () => {
                                     </ul>
                                     <h3 className="blog-one__title">
                                         <Link href="/news-details">
-                                        <a>Primeiro Espaço da Juventude, voltado à formação e inclusão de jovens na tecnologia 4.0, é inaugurado na cidade do Rio.</a>
+                                        Primeiro Espaço da Juventude, voltado à formação e inclusão de jovens na tecnologia 4.0, é inaugurado na cidade do Rio.
                                         </Link>
                                     </h3>
                                     <Link href="/news-details">
-                                    <a className="blog-one__link">Ler mais</a>
+                                    <div className="blog-one__link">Ler mais</div>
                                     </Link>
                                 </div>
                             </div>
