@@ -60,7 +60,7 @@ export default class NavOne extends Component {
                         </div>
                         <div className="main-navigation">
                             <ul className=" one-page-scroll-menu navigation-box">
-                                <li className="current scrollToLink"><a href="/">Home</a></li>
+                                <li className="current scrollToLink"><Link href="/">Home</Link></li>
                                 <li className="scrollToLink"><a href="#features">Como funciona?</a></li>
                                 <li className="scrollToLink"><a href="#screenshots">Causas defendidas</a></li>
                                 <li className="scrollToLink"><a href="/news">Projetos</a></li>

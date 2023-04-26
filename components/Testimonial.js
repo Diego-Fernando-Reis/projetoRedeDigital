@@ -35,7 +35,7 @@ const Testimonial = () => {
                       Me tiraram da rua e me deram uma vida babadeira 😭<br /> Só tenho a agradecer a estes rapazes maravilhosos. <br /> Que Deus abençoe.
                     </p>
                     <h3>Brandon Jesus</h3>
-                    <span>Menor apreendido</span>
+                    <span>Menor aprendiz</span>
                     <img
                       src="/assets/images/resources/testi-1-1.png"
                       alt="Awesome Image"

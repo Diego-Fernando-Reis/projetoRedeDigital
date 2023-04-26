@@ -60,39 +60,18 @@ export default class NavTwo extends Component {
                         </div>
                         <div className="main-navigation">
                             <ul className=" one-page-scroll-menu navigation-box">
-                                <li className="current scrollToLink">
-                                    <a href="/">Início</a>
-                                    <ul className="sub-menu">
-                                        <li><a href="/">Home 01</a></li>
-                                        <li><a href="/index-2">Home 02</a></li>
-                                        <li><a href="#">Header Versions</a>
-                                            <ul className="sub-menu">
-                                                <li><a href="">Header 01</a></li>
-                                                <li><a href="/index-2">Header 02</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                <li className="scrollToLink">
+                                    <a href="/">Home</a>
                                 </li>
                                 <li className="scrollToLink">
                                     <a href="#features">Como funciona?</a>
 
                                 </li>
                                 <li className="scrollToLink">
-                                    <a href="#video">Video tutorial</a>
-
-                                </li>
-                                <li className="scrollToLink">
-                                    <a href="#pricing">Doações</a>
-                                </li>
-                                <li className="scrollToLink">
                                     <a href="#screenshots">Causas defendidas</a>
                                 </li>
-                                <li className="scrollToLink">
+                                <li className="current scrollToLink">
                                     <a href="#news">Projetos</a>
-                                    <ul className="sub-menu">
-                                        <li><Link href="/news">Todos os projetos</Link></li>
-                                        <li><Link href="/news-details">News Details</Link></li>
-                                    </ul>
                                 </li>
                             </ul>
                         </div>

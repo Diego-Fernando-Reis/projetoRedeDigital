@@ -23,6 +23,7 @@ const Layout = (props) => {
                     <link rel="stylesheet" href="/assets/plugins/dimon-icons/style.css" />
                     <link rel="stylesheet" href="/assets/css/style.css" />
                     <link rel="stylesheet" href="/assets/css/responsive.css" />
+                    <title>Projeto Rede Digital</title>
 
                 </Head>
 
