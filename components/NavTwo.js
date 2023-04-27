@@ -51,7 +51,7 @@ export default class NavTwo extends Component {
                     <div className="container clearfix">
                         <div className="logo-box clearfix">
                             <a className="navbar-brand" href="/">
-                                <img src="/assets/images/resources/logo-light.png" className="main-logo" width="119"
+                                <img src="/assets/images/resources/logo-light.png" className="main-logo" width="250"
                                      alt="Awesome Image" />
                             </a>
                             <button className="menu-toggler" data-target=".main-navigation">
